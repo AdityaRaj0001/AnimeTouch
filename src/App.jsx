@@ -115,7 +115,7 @@ function App() {
             <img src={`data:image/png;base64,${responseimageb64}`} className="w-full sm:max-h-[500px] sm:w-auto" />
             
 
-            <div className="absolute bottom-[16%] text-center translate-y-[100%]">
+            <div className="absolute bottom-[16%] lg:bottom-[0%] text-center translate-y-[100%]">
             <button onClick={download} className="border-slate-900 border-4 w-4/5 p-2 text-2xl font-semibold  text-white bg-blue-500">Download</button>
             <button onClick={retry} className="border-slate-900 border-4 w-4/5 p-2 text-2xl font-semibold  text-white bg-blue-500">Retry</button>
             </div>
