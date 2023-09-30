@@ -75,7 +75,7 @@ const GenerateResult= async (e)=>{
     requestBody, 
     {
       headers:{
-        "Authorization":import.meta.env.getimgapikey,
+        "Authorization":import.meta.env.VITE_KEY,
         Accept:'application/json',
         'Content-Type':"application/json",
       },
