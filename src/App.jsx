@@ -56,8 +56,7 @@ function App() {
       image: imageb64,
       strenght: 0.20,
       steps: 50,
-      guidance: 9,
-      seed:1877056197,
+      guidance: 7,
       scheduler: "dpmsolver++",
       output_format: "png",
     };
