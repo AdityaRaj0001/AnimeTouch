@@ -54,7 +54,7 @@ function App() {
       prompt: "Animated Version, Ultra High Quality, HD, Hyperrealistic",
       negative_prompt: "Disfigured, cartoon, blurry, nude",
       image: imageb64,
-      strenght: 0.4,
+      strenght: 0.25,
       steps: 50,
       guidance: 9,
       scheduler: "dpmsolver++",
