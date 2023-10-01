@@ -57,6 +57,7 @@ function App() {
       strenght: 0.20,
       steps: 50,
       guidance: 9,
+      seed:1877056197,
       scheduler: "dpmsolver++",
       output_format: "png",
     };
