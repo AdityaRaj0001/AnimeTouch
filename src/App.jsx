@@ -55,7 +55,7 @@ function App() {
       negative_prompt: "Disfigured, cartoon, blurry, nude",
       image: imageb64,
       strenght: 0.25,
-      steps: 50,
+      steps: 75,
       guidance: 9,
       scheduler: "dpmsolver++",
       output_format: "png",
