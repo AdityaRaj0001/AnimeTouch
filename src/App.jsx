@@ -51,7 +51,7 @@ function App() {
 
     const requestBody = {
       model: "dark-sushi-mix-v2-25",
-      prompt: "Animated Version, Ultra High Quality, HD, Hyperrealistic",
+      prompt: "Animated version, High Quality, HD",
       negative_prompt: "Disfigured, cartoon, blurry, nude",
       image: imageb64,
       strenght: 0.20,
